@@ -1,0 +1,495 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/* -------------------------    Class Lists For JavaScript   ------------- */
+.hamburgerClick{
+    transition-duration: 0.8s;
+    color: white;
+     visibility: visible;
+ }
+
+ #map {
+    width: 100%;
+    height:100%;
+    
+  }
+
+  .opacity{
+    animation: opacity 1s;
+}
+
+@keyframes opacity {
+  from{
+      opacity: 0.2;
+  }
+  to{
+      opacity: 1;
+  }
+}
+
+
+/* ----------------------------    Java Script Classes    -------------------------- */
+
+body{
+
+    background-color:#232323;
+}
+/* -----------------------------   Logo Section  CSS   -------------------------- */
+
+
+
+#rotateFishImg{
+    display: none;
+}
+#logoSection{
+    display: block;
+    background-color: #1b3f17;
+    width: 99%;
+    height: 25px;
+    margin: auto auto;
+    border-radius: 10px;
+}
+
+#logoSection p{
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+#backgroundImage{
+    width: 100%;
+}
+
+/* --------------------------   Main Section   ----------------------------------- */
+#mainSection{
+    width: 90%;
+    margin: auto;
+    background-color:white;
+    border: 4px solid #1b3f17;
+    border-radius: 10px;
+    box-shadow:0px 4px 14px  0px rgb(202, 181, 181) ;  
+
+}
+
+
+/* --------------------------  Hamburger Menu   -------------------------- */
+
+#hamburgerButton{
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 80%;
+}
+
+#threeLines{
+    width: 30px;
+    margin-left: 3px;
+    margin-bottom: 1px;
+}
+#threeLines:hover{
+    background-color: violet;
+    transition-duration: 0.3s;
+    border-radius: 35px; 
+}
+#middleLine{
+    margin-top: 4px;
+    margin-bottom: 4px; 
+}
+.hamburgerLine{
+    width: 30px;
+    height: 3px;
+    background-color:rgb(173, 26, 154);
+    border-radius: 50px;
+}
+/* -------------- Menu Options Style------------ */
+#hamburgerMenu{
+    width: 50px;
+    margin-left: -5px;
+    display: inline-block;
+    visibility: hidden;  
+}
+.hamburgerOptions a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trade Winds', cursive;
+    font-size: 7px;
+}
+
+.hamburgerOptions a:hover{
+    color: white;
+}
+
+.hamburgerOptions{
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hamburgerOptions:hover{
+    transition-duration: 0.3s;
+    background-color:red ;
+}
+
+#mediaQueryMenu{
+    display: none;
+}
+
+/* -------------------------------   Picture Slide   --------------------------------------------------- */
+
+#pictureSlide{
+    display: none;
+}
+
+#smallImg{
+    display: none;
+}
+
+#localCatches{
+    display: none;
+}
+
+.onPageInfo{
+    text-align: center;
+    font-family: 'Trade Winds', cursive;
+    margin-bottom: 9px;
+}
+
+/* -------------------------   Fish Information   ----------------------------------------------- */
+
+#fishInfoDiv{
+    margin: auto;
+    width: 90%;
+    height: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.pikeFishDiv{
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 135px;
+    height: 130px;
+}
+
+.pikeFishDivImg{
+    width: 132px;
+    height: 120px;
+    padding: 4px;
+    border-radius: 20px;
+    box-shadow:0px 4px 14px  0px gray ;  
+}
+
+.pikeFishDivImg:hover{
+    transition-duration: 0.2s;
+    padding: 0;
+}
+
+.pikeButton{
+    margin-left:35px;
+    font-size: 10px;
+    border-radius: 20px;
+}
+.pikeButton a{
+    text-decoration: none;  
+}
+
+#pikeButton:hover{
+padding: 1px;
+}
+
+.pikeButton a:hover{
+    padding: 0;
+    color: red;
+}
+
+#pikeSpan{
+    font-family: 'Trade Winds', cursive;
+    font-weight: 800;
+    margin-top: 40px;
+    color: #1b3f17;
+    float: right;
+    position: absolute; 
+    font-size: 20px;
+    visibility: hidden;
+}
+
+#catFishSpan{
+    font-family: 'Trade Winds', cursive;
+    font-weight: 800;
+    margin-top: 40px;
+    color: #1b3f17;
+    float: right;
+    position: absolute; 
+    font-size: 20px;
+    visibility: hidden;
+}
+
+#eelSpan{
+    font-family: 'Trade Winds', cursive;
+    font-weight: 800;
+    margin-top: 40px;
+    color: #1b3f17;
+    float: right;
+    position: absolute; 
+    font-size: 20px;
+    visibility: hidden;
+}
+/* ---------------------------------     Map Div    ------------------------------------------------- */
+
+#mapDiv{
+    margin: 0 auto;
+    margin-top:15px;
+    width: 90%;
+    height: 180px;
+    border: 2px solid black;;
+    box-shadow:0px 4px 14px  0px gray ;  
+}
+
+/* ----------------------------------    Footer Div     ------------------------------------------------------ */
+
+#footerDiv{
+    width: 99%;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-color:#1b3f17;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.socialMediaDiv{
+    margin-top: 5px;
+}
+
+.socialMediaDiv p{
+    text-align: center;
+    font-size: 17px;
+}
+
+.socialMediaDiv a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* -------------------------------------    Media Query  500px     -------------------------------------------------------- */
+
+
+
+@media only screen and (min-width: 500px){
+
+
+    /* ----------------------------   Rotating Icon   ---------------------------------------- */
+
+#rotateFishImg {
+    
+    -webkit-animation: rotation 2.5s  linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(359deg);
+    }
+    to {
+            -webkit-transform: rotate(0deg);
+    }
+}
+
+  /* ----------------------------  Logo Section -----  Media 500px  --------------------------------- */
+
+  #logoSection{
+    background-color:#1b3f17;
+    width: 99%;
+    height: 45px;
+    margin: auto auto;
+}
+
+#rotateFishImg{
+    display: block;
+    float: left;
+    width: 40px;
+    margin-left: 40%;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#logoSection p{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+#mainSection{
+    width: 450px;
+    margin: auto auto;
+    background-color:white
+}
+
+#backgroundImage{
+    width: 100%;
+    height:350px;
+    position: relative; 
+     background-image: url(images/picture.JPG); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+  background-attachment: fixed;
+}
+
+/* ------------------------------------   Menu Query 500px   ----------------------------- */
+
+    #hamburgerButton{
+        display: none;
+    }
+
+    #mediaQueryMenu{
+        display: flex;
+    } 
+
+    #pageMenu{
+        width: 70%;
+        height: 35px;
+        margin:0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .menuOptions a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Trade Winds', cursive;
+        font-size: 19px;
+    }
+
+    .menuOptions a:hover{
+        color: red;
+        border-bottom: 1.2px solid #1b3f17;
+    }
+  
+
+/* -------------------------------     Picture Slide      --------------------------------------------------- */
+
+#pictureSlide{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 250px;
+    box-shadow:0px 4px 14px  0px gray ;  
+    border: 2px solid black;
+}
+
+#img1, #img2, #img3{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#img4{
+visibility: visible;
+width:100%;
+height:100%;
+}
+
+#smallImg{
+    display: block;
+    margin-left: 27%;
+}
+
+#smallImg img{
+    opacity: 0.7;
+    padding: 3px;
+    margin: 5px;
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#smallImg img:hover{
+    transition-duration: 0.1s;
+    padding: 0;
+    border-radius: 5px;
+    opacity: 1;
+    box-shadow:0px 4px 14px  0px gray ;  
+}
+
+#localCatches{
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+    display: block;
+}
+
+/* -----------------------------   Map Div    ------------------------------------------------- */
+
+#mapDiv{
+    width: 400px;
+    height: 350px;
+}
+
+/* ---------------------------    Footer Div    ------------------------------------------------------ */
+
+#footerDiv{
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.socialMediaDiv p{
+    text-align: center;
+    padding: 3px;
+    font-size: 22px;
+}
+
+}
+
+
+/* -------------------------------------------    Media 1024px      ----------------------------------------------- */
+
+
+@media only screen and (min-width: 1024px){
+
+    
+  /* -------------     Logo Section    -----   Media 1024px--------------------------------- */
+  
+
+#fishLogo p{
+    font-size:30px;
+}
+#mainSection{
+    width: 550px;
+}
+
+
+/* -------------------------     Picture Slide      --------------------------------------------------- */
+
+#smallImg{
+    margin-left: 30%;
+}
+/* ---------------------------    Map Div     ------------------------------------------------- */
+
+#mapDiv{
+    width: 500px;
+    height: 350px;
+}
+
+/* -----------------------------    Footer Div     ------------------------------------------------------ */
+}
+@media only screen and (min-width:1400px){
+    #rotateFishImg{
+        margin-left: 45%;
+    }
+}
+
+.slow{
+   color: black;
+}

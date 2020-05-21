@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="internalPage.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Page</title>
+</head>
+<body>
+    <!-- --------------------------    Logo Section ---------------------------------------------------------- -->
+    <div id="logoSection">
+        <img id="rotateFishImg" src="images/rotateFish.JPG">
+    <p><strong>Fishing Mate</strong></p>
+    </div>
+    <!-- --------------------------   Main Section   ----------------------------------------------------------- -->
+    <div id="mainSection">
+    <!-- --------------------------    The Menu   --------------------------------------------------------- -->
+        <div id="menu">
+            <section id="hamburgerButton">
+                <div id="threeLines">
+                    <div class="hamburgerLine" ></div>
+                    <div class="hamburgerLine" id="middleLine"></div>
+                    <div class="hamburgerLine" ></div>
+                </div>
+                <div id="hamburgerMenu">
+                    <div class="hamburgerOptions"><a href="../firstPage/fishingWebsite.html">Home</a></div>
+                    <div class="hamburgerOptions"><a href="#mapDiv">Maps</a></div>
+                    <div class="hamburgerOptions"><a href="#footerDiv">Contact</a></div>
+                </div>
+            </section>
+
+            <div id="mediaQueryMenu">
+                <div id="pageMenu">
+                    <div class="menuOptions"><a href="../firstPage/fishingWebsite.html">Home</a></div>
+                    <div class="menuOptions"><a href="#mapDiv">Maps</a></div>
+                    <div class="menuOptions"><a href="#footerDiv">Contact</a></div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="onPageInfo">
+            <p>Fish species that can be found in Surrey area.</p>
+        </div>
+
+        <!--                     -----------------   Fish Info   --------------------- -->
+
+        <div id="pikeInfo">
+            <img src="https://i1.wp.com/pikecaster.com/wp-content/uploads/2020/01/shutterstock-569660224.jpg?resize=1080%2C675&ssl=1" alt="">
+            <p><span class="firstLetter">The</span> pike (Esox lucius) is one of the world’s finest freshwater predators.
+            <br>
+            While fierce looking, the pike is a very fragile fish and the upmost of care must be taken when handling them
+                They have large bony heads with prominent forward/upward looking eyes, a broad flattened snout and a large mouth. The mouth contains a fierce arsenal of teeth, with rows of backward pointing, razor sharp teeth in the top jaw and larger needle-like teeth in the lower jaw. The head is mounted on a long, torpedo shaped body with fins being primarily rear positioned for fast acceleration. Individual marking patterns are unique to each pike, like fingerprints to humans. This olive and cream colouration helps the pike to camouflage itself, while it lies in wait for its prey
+                <br>
+                Pike are common in Trust waters. All canals, reservoirs and rivers will contain some pike.
+                <br>
+                British record: 46lb 13oz (British record committee 2015)
+            </p>
+        </div>
+
+        <div id="catFishInfo">
+            <img src="https://i.insider.com/5e012d86954bda13b774c004?width=1100&format=jpeg&auto=webp" alt="">
+            <p>
+                <span class="firstLetter">Though</span> they may not sound exciting, catfish are incredible survivors as a breed of fish. They’re able to live and even thrive in temperatures from just above freezing to nearly 100 degrees Fahrenhei. <br>
+                Catfish are an extremely diverse group of ray-finned fish that get their nickname from their feline-looking whiskers, which are actually barbels that act as a defense mechanism (unlike other fish that have scales to defend them). Catfish can live in a number of conditions, with species that live in saltwater, freshwater and brackish water. Some catfish prefer stagnant water and others call rivers and streams with fast-moving currents their homes, it all depends. Some species of catfish are nocturnal(sleep during the day).
+            </p>
+        </div>
+
+        <div id="eelFishInfo">
+            <img src="https://canalrivertrust.org.uk/refresh/media/large/22869.jpg?v=6046ef" alt="">
+            <p>
+                <span class="firstLetter">The</span> eel is a very long, narrow fish that can grow to over a metre in length. It looks smooth and lacks the obvious scales and gills of other fish. It can be found in rivers and ditches.
+                <br>
+                The eel is a snake-like freshwater fish. A group of bizarre fish called lampreys look similar but have large sucker-like mouths and no pectoral fins. Eels range in colour above, from silver to olive-green, and have yellow bellies.
+                <br>
+                 Best time to catch an eel is early evening or dark is the best time to target and catch eels. They are not shy feeders and due to a powerful mouth they can bite through fine lines. The best baits are small dead baits or a bunch of lobworms or maggots on the bottom, often close in the margins or around weed beds. Small dead baits such as roach, rudd or gudgeon are a favourite and can be fished with a single large hook such as a size two or size four.
+            </p>
+        </div>
+
+        <div class="onPageInfo">
+            <p>Map to fishing spots in Surrey area.</p>
+        </div>
+
+        <!--               ---------------   Maps   ------------------------- -->
+        <div id="mapDiv">
+            <div id="map"></div>
+        </div>
+
+        <!--  -------------------------    Footer   --------------------- -->
+
+        <div id="footerDiv">
+            <div class="socialMediaDiv">
+                <p id="facebook"><strong><a href="##">facebook</a></strong></p>
+            </div>
+
+            <div class="socialMediaDiv">
+                <p id="instagram"><strong><a href="##">instagram</a></strong></p>
+            </div>
+
+            <div class="socialMediaDiv">
+                <p id="twitter"><strong><a href="##">twitter</a></strong></p>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKr1gtqJLEEPpMchcIFErxUCMlaKt2zrc&callback=initMap"
+    async defer></script>
+    <script src="mapOnPage.js"></script>
+
+    <script src="internalPage.js"></script>
+</body>
+</html>
